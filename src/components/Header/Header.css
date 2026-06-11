@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.header_logo {
+    font-size: 2rem;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.heade_menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header_menu li {
+    cursor: default;
+    font-size: 1rem;
+    color: #555;
+    transition: 0.3s;
+}
+
+.header_menu li:hover{
+    color: #1f5eff;
+}
