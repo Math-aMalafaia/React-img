@@ -1,0 +1,38 @@
+.history-card{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.history-card_image img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.history-card_content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+history-card_content h2{
+    font-size: 2rem;
+}
+
+history-card_content h3{
+    color: #2563eb;
+    font-weight: 600;
+}
+
+history-card_content p{
+    line-height: 1.7;
+    text-align: justify;
+}
