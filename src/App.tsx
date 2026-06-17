@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import HistoryCards from "./components/HistoryCard/HistoryCard"
+import Hero from "./components/Hero/Hero"
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
     <>
       <Header />
       <main>
+
+        <Hero />
         <HistoryCards
           title="Wilhelm Wundt"
           subtitle="Pai da Psicologia Esperimental"
