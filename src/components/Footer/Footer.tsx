@@ -2,9 +2,13 @@ import "./Footer.css"
 
 // Componente responsavel pelo rodape 
 
-export default function Footer() {
+interface footerprops{
+    id?: string;
+}
+
+export default function Footer({id}: footerprops) {
     return (
-        <footer className="footer">
+        <footer id={id} className="footer">
             <div className="footer_container">
 
                 <section className="footer_about">

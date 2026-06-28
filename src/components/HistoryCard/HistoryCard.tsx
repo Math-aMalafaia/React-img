@@ -1,6 +1,7 @@
 import "./HistoryCard.css";
 
 interface HistoryCardProps{
+    id?: string;
     title: string;
     subtitle: string;
     description: string;
@@ -8,13 +9,14 @@ interface HistoryCardProps{
 }
 
 export default function HistoryCards({
+    id,
     title,
     subtitle,
     description,
     image,
 }: HistoryCardProps) {
     return(
-        <section className="history-card">
+        <section id={id} className="history-card">
             <div className="history-card_image">
                 <img src={image} alt="title" />
             </div>

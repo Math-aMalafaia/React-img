@@ -1,8 +1,11 @@
 import "./Hero.css"
+interface Heroprops{
+    id?: string;
+}
 
-export default function hero() {
+export default function hero({ id}: Heroprops) {
     return(
-        <section className="hero">
+        <section id={id} className="hero">
             <div className="hero_ccontent">
                 <span className="hero_tag">
                     Portal Educacional

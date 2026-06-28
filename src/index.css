@@ -7,3 +7,7 @@
 body {
   font-family: Arial, helvetica, sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}
