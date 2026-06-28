@@ -2,6 +2,7 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import HistoryCards from "./components/HistoryCard/HistoryCard"
 import Hero from "./components/Hero/Hero"
+import Psychology from "./components/Psychology/Psychology"
 
 function App() {
 
@@ -11,6 +12,9 @@ function App() {
       <main>
 
         <Hero id="inicio"/>
+
+        <Psychology id="psicologia"/>
+        
         <HistoryCards
           id="historia"
           title="Wilhelm Wundt"

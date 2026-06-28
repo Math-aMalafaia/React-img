@@ -16,10 +16,10 @@ function Header() {
                             <a href="#inicio">Início</a>
                         </li>
                         <li className="header_item">
-                            <a href="#historia">Hitorioa</a>
+                            <a href="#psicologia">Psicologia</a>
                         </li>
                         <li className="header_item">
-                            <a href="#psicologia">Psicologia</a>
+                            <a href="#historia">Hitorioa</a>
                         </li>
                         <li className="header_item">
                             <a href="#contato">Contatos</a>
